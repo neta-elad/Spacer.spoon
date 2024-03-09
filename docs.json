@@ -1,0 +1,41 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "desc" : "Save and reload Spaces (i.e., desktops) with the same windows containing the same files in the same position.",
+    "Constructor" : [
+
+    ],
+    "doc" : "Save and reload Spaces (i.e., desktops) with the same windows containing the same files in the same position.",
+    "Method" : [
+
+    ],
+    "Command" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "items" : [
+
+    ],
+    "name" : "Spacer"
+  }
+]
