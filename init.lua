@@ -44,7 +44,9 @@ local function saveSpace()
     local frontmost = hs.window.frontmostWindow()
     local savedSpace = {}
     hs.printf("saveSpace %d", focusedSpace)
-    for _i, windowId in pairs(hs.spaces.windowsForSpace(focusedSpace)) do
+    local windows = hs.spaces.windowsForSpace(focusedSpace)
+    if not windows then return end
+    for _i, windowId in pairs(windows) do
         local window = hs.window.get(windowId)
         if window ~= nil and window:isVisible() then
             window:raise()
